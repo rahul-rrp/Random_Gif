@@ -1,5 +1,4 @@
-import axios from 'axios';
-import { useEffect } from 'react';
+
 import Spinner from './Spinner';
 import React, { useState } from 'react'
 import useGif from '../hooks/useGif'

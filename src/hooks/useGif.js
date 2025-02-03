@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { useEffect } from 'react';
-import React, { useState } from 'react'
+import  { useState } from 'react'
 
 const useGif = (tag) => {
     const[gif, setgif]= useState("");

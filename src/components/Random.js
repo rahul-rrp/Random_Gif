@@ -1,7 +1,6 @@
-import axios from 'axios';
-import { useEffect } from 'react';
+
 import Spinner from './Spinner';
-import React, { useState } from 'react'
+import React from 'react'
 import useGif from '../hooks/useGif'
 const Random = () => {
     const {gif, loading, fetchData} = useGif();
