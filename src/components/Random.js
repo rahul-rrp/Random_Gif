@@ -15,7 +15,7 @@ const Random = () => {
             loading?
             (<Spinner/>
             ):
-            (<img src={gif} width="450"/>) 
+            (<img src={gif} width="450" alt="Gif Image"/>) 
             }
             <button onClick={() => fetchData()}
                 className="w-10/12 bg-yellow-500 text-lg py-2 rounded-lg mb-[20px]">
