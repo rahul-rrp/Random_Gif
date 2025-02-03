@@ -16,7 +16,7 @@ const Tag = () => {
             loading?
             (<Spinner/>
             ):
-            (<img src={gif} width="450"/>) 
+            (<img alt='image2' src={gif} width="450"/>) 
             }
 
             <input 
